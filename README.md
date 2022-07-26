@@ -1,13 +1,30 @@
 # buildspace Solana NFT Drop Project
-### Welcome 👋
-To get started with this course, clone this repo and follow these commands:
+## buildspace Solana NFT Mint (Front-End)
 
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
+![image](/public/livesite.png)
 
-### What is the .vscode Folder?
-If you use VSCode to build your app, we included a list of suggested extensions that will help you build this project! Once you open this project in VSCode, you will see a popup asking if you want to download the recommended extensions :).
+## Welcome 👋
+This is the front-end for a Solana NFT mint site. You can see the full project, including how to create and edit the smart contract, on [buildspace](https://buildspace.so/solana-nfts).
 
-### Questions?
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/CO77556be5-25e9-49dd-a799-91a2fc29520e) and link your Discord account so you can get access to helpful channels and your instructor!
+## How to get things working
+The template is currently tied to a Candy Machine ID attached to the Solana Devnet. To mint your own NFT on Solana, you need to add/edit the follwoing Replit "Secrets" (Environment variables) from the `.env.example`:
+
+- Create a new Secret for every variable listed in the `.env.example` file
+
+**Candy Machine ID**
+```
+REACT_APP_CANDY_MACHINE_ID=BshCcL5b92wj59nErRgrpStGnNXkzY5gDKcfJHK6xtLt;
+```
+
+**Solana Network**
+```
+REACT_APP_SOLANA_NETWORK=devnet
+```
+
+**Solana Network**
+```
+REACT_APP_SOLANA_RPC_HOST=https://explorer-api.devnet.solana.com
+```
+
+## Questions?
+Have some questions make sure you head over to your [buildspace Dashboard](https://buildspace.so/p/build-polygon-ens) and link your Discord account so you can get access to helpful channels and your instructor!
